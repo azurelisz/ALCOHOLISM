@@ -113,6 +113,15 @@ figcaption{
     color: #fff;
     text-align: center;
 }
+.conception-title{
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 6vw;
+    color: #fff;
+    text-align: center;
+}
 .conception-th{
     padding: 0;
     margin-left: 10%;
@@ -147,6 +156,12 @@ figcaption{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 5vw;
     text-align: center;    
+}
+.chartbox{
+    padding: 2vw;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 5vw;
+    text-align: center;
 }
 .desbox-gr{
     background: #000;
@@ -187,7 +202,8 @@ figcaption{
         overflow-x: hidden;
 }
 .big-chart{
-    height: 45vw;
+    padding: 1vw;
+    height: 42vw;
     width: auto;
 }
 #fourth-parallax{
@@ -221,6 +237,48 @@ figcaption{
 #sixth-parallax{
     /* The image used */
     background-image: url("image/6.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#seventh-parallax{
+    /* The image used */
+    background-image: url("image/7.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#eighth-parallax{
+    /* The image used */
+    background-image: url("image/8.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#nineth-parallax{
+    /* The image used */
+    background-image: url("image/9.jpg");
     
         /* Set a specific height */
         min-height: 50vw; 
