@@ -290,3 +290,44 @@ figcaption{
         background-size: cover;
         overflow-x: hidden;
 }
+#tenth-parallax{
+     /* The image used */
+     background-image: url("image/4.jpg");
+     
+         /* Set a specific height */
+         min-height: 50vw; 
+     
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         overflow-x: hidden;
+}
+.member ul{
+    margin-left: 10%; 
+    align-items: center;
+    list-style-type: none;
+}
+.member li{
+    margin-top: 4%;
+    float: left;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.mem{
+    border: 1px solid #dddddd;
+    height: 25vw;
+}
+.member li p{
+    text-align: center;
+}
+.memdef{
+    background-color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    text-decoration: none;    
+}
